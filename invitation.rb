@@ -1,5 +1,5 @@
 puts "Hi, you've been invited to a party! What is your name?"
-host = gets.chomp
+guest_name = gets.chomp
 puts "What is the name of the party?"
 party_name = gets.chomp
 puts "What is the date of the party?"
@@ -7,7 +7,7 @@ date = gets.chomp
 puts "What time is the party?"
 time = gets.chomp
 puts "What is the guest's name?"
-guest = gets.chomp
+host_name = gets.chomp
 
 puts "Dear #{guest_name},
 
