@@ -6,7 +6,7 @@ puts "What is the date of the party?"
 date = gets.chomp
 puts "What time is the party?"
 time = gets.chomp
-puts "What is your name?"
+puts "What is the guest's name?"
 host_name = gets.chomp
 
 puts "Dear #{guest_name},
